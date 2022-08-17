@@ -19,7 +19,7 @@ cursos = [
 ]
 
 name_cursos = [
-  'Curso de Petes',
+  'Curso de Alumnos',
   'Curso de Saiayines',
   'Curso de Ninjas'  
 ]

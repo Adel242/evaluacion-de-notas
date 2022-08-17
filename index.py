@@ -1,11 +1,9 @@
 import diccionario
 import promedio
 
-
 def alumnos():
 
   while True:
-    
     print('-----------------------------------------------------------------')
     print('*************** PROGRAMA DE EVALUACION DE NOTAS ****************')
     print('                 SELECCIONE EL CURSO A EVALUAR                 \n')
@@ -31,11 +29,10 @@ def alumnos():
       print('>> ERROR: Debe elegir una opcion valida \n')
 
   while True:
-
     print('\n-----------------------------------------------')
     print('********SELECCIONE EL NOMBRE EL ALUMNO*********\n')
     for al in range(len(lista_curso)):
-      print('[',al+1,']' , 'para evaluar a: ' , lista_curso[al]['name'])
+      print('[', al + 1 ,']' , 'para evaluar a: ' , lista_curso[al]['name'])
     print('-----------------------------------------------')
 
     try:  
@@ -43,7 +40,7 @@ def alumnos():
       select_alumno = select_alumno -1
 
       if select_alumno >= len(lista_curso) or select_alumno < 0:
-        print('>> ERROR: escriba una opcion valida \n')
+        print('>> ERROR: Escriba una opcion valida \n')
         continue
       
       print('Alumno:', lista_curso[select_alumno]['name'],'\n')

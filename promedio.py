@@ -34,7 +34,6 @@ def promedio_notas():
         diccionario.acum_notas_alumno = acum_notas
         return print('El promedio de notas es: ', resultado)
         
-        
     except ValueError:
       print('>> ERROR: Debe ingresar un numero')
 
